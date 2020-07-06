@@ -30,7 +30,7 @@ class Chat extends Component{
                             // user에 true넣으면 값이 입력 된다.
                             user: true,
                             validator: (value) => {
-                                if (value === null) {
+                                if (value === '') {
                                     // 아무 입력 값이 없는 경우 보여준다.
                                     return '이름이 없습니다. 다시입력해주세요.';
                                 }
