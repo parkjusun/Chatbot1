@@ -27,7 +27,7 @@ class Chat extends Component{
                         },
                         {
                             id: 'name',
-                            // user에 true넣으면 값을 입력 된다.
+                            // user에 true넣으면 값 입력 된다.
                             user: true,
                             validator: (value) => {
                                 if (value === null) {
