@@ -3,14 +3,14 @@ import ChatBot from 'react-simple-chatbot';
 
 class Chat extends Component{
     // React의 props와 state설정
-    constructor(props) {
-        super(props);
+//     constructor(props) {
+//         super(props);
 
-        this.state = {
-            name:'',
-        };
+//         this.state = {
+//             name:'',
+//         };
 
-    }
+//     }
 
     render() {
         return (
@@ -35,9 +35,9 @@ class Chat extends Component{
                                     return '이름이 없습니다. 다시입력해주세요.';
                                 }
                                 // name에 들어온 입력된 값을 받아 준다.
-                                this.state.name = value
-                                // this.state.name에 값이 저장되어 있는지 확인
-                                alert(this.state.name)
+//                                 this.state.name = value
+//                                 // this.state.name에 값이 저장되어 있는지 확인
+//                                 alert(this.state.name)
                                 return true;
                             },
                             trigger: '2',
