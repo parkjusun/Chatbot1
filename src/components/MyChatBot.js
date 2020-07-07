@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
 import ChatBot from 'react-simple-chatbot';
 
-class Chat extends Component{
+class MyChatBot extends Component{
     // React의 props와 state설정
 //     constructor(props) {
 //         super(props);
@@ -55,4 +55,4 @@ class Chat extends Component{
     }
 }
 
-export default Chat;
+export default MyChatBot;
