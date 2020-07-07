@@ -1,2 +1,2 @@
 export { default as Home } from './Home';
-export { default as ChatBot } from './ChatBot';
+export { default as MyChatBot } from './MyChatBot';
